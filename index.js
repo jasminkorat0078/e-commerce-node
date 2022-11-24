@@ -23,7 +23,7 @@ app.use(
   })
 );
 app.use(cors());
-app.use(express.static(path.resolve(__dirname, '../dist')));
+//app.use(express.static(path.resolve(__dirname, '../dist')));
 
 setupDB();
 // require('./config/passport')(app);
